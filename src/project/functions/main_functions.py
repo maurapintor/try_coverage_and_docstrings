@@ -3,3 +3,6 @@ def f(a):
 
 def g(b):
     return str(b)
+
+def l(x):
+    return isinstance(x, str)
