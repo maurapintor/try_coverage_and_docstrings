@@ -1,5 +1,3 @@
-
-
 from functions.main_functions import f
 
 
