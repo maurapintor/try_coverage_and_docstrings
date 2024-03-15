@@ -8,4 +8,4 @@ def test_function_number():
     assert f(1) == 1, "Should be 1"
 
 def test_function_g():
-    assert g(1) == True, "Should be True"
+    assert g(1) == "1", "Should be 1"
