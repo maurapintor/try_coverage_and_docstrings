@@ -9,3 +9,6 @@ def test_function_number():
 
 def test_function_g():
     assert g(1) == "1", "Should be 1"
+
+def test_function_l():
+    assert l("k") == True, "Should be True"
