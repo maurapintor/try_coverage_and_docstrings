@@ -17,18 +17,18 @@ def p(x: int) -> float:
     return float(x)
 
 
-def another(x: bool):
+def another(x: str) -> bool:
     """
     Print a string.
 
     Parameters
     ----------
-    x : bool
+    x : str
         An input.
 
     Returns
     -------
-    str
-        True if x is True.
+    bool
+        True if x is not empty
     """
-    return "True" if x is True else "False"
+    return x != ""
