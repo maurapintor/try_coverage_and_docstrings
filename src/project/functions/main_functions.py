@@ -1,14 +1,14 @@
 """Main functions."""
 
 
-def f(a):
+def f(a: float) -> float:
     """
     Return the same value.
 
     Parameters
     ----------
-    a : any
-        Anything.
+    a : float
+        A floating number.
 
     Returns
     -------
@@ -18,31 +18,31 @@ def f(a):
     return a
 
 
-def g(b):
+def g(b: float) -> str:
     """
     Convert to string.
 
     Parameters
     ----------
-    b : any
-        Any input that will be returned as string.
+    b : number
+        Number, either integer or float.
 
     Returns
     -------
-    any
+    string
         The input b as a string.
     """
     return str(b)
 
 
-def func_l(x):
+def func_l(x: float | str) -> bool:
     """
     Check if the input is a string.
 
     Parameters
     ----------
-    x : any
-        Any object.
+    x : float | str
+        A float or a string
 
     Returns
     -------

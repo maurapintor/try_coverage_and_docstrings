@@ -6,8 +6,12 @@ indent-width = 4
 target-version = "py39"
 
 [lint]
-select = ["D", "D401"]
-ignore = ["D417"]
+select = ["ALL"]
+ignore = [
+    "FA102",  # dynamic type hinting
+    "S101",  # use of assert
+    "ARG001"  # unused function argument
+    ]
 
 [lint.per-file-ignores]
 "tests/*" = ["D"]
