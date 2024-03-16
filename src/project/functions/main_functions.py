@@ -1,8 +1,10 @@
 def f(a):
     return a
 
+
 def g(b):
     return str(b)
 
-def l(x):
+
+def func_l(x):
     return isinstance(x, str)

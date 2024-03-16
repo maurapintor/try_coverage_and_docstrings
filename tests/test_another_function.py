@@ -1,4 +1,3 @@
-
 from project.functions.another_function import p
 
 
