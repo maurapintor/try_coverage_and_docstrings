@@ -15,3 +15,20 @@ def p(x: int) -> float:
         the input as float
     """
     return float(x)
+
+
+def another(x: bool):
+    """
+    Print a string.
+
+    Parameters
+    ----------
+    x : bool
+        An input.
+
+    Returns
+    -------
+    str
+        True if x is True.
+    """
+    return "True" if x is True else "False"
