@@ -7,7 +7,7 @@ target-version = "py39"
 
 [lint]
 select = ["D", "D401"]
-ignore = ["D417"]
+ignore = []
 
 [lint.per-file-ignores]
 "tests/*" = ["D"]

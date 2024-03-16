@@ -35,7 +35,7 @@ def g(b):
     return str(b)
 
 
-def func_l(x):
+def func_l(x, a):
     """
     Check if the input is a string.
 
@@ -43,6 +43,8 @@ def func_l(x):
     ----------
     x : any
         Any object.
+    y: any
+        BS argument.
 
     Returns
     -------
